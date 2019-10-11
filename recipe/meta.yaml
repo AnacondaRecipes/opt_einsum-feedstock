@@ -1,14 +1,13 @@
 {% set name = "opt_einsum" %}
 {% set version = "3.1.0" %}
-{% set sha256 = "19d82486b19f4e25203c42aef7ee9679f0f6c7b10d352529609bd566658c032c" %}
+{% set sha256 = "edfada4b1d0b3b782ace8bc14e80618ff629abf53143e1e6bbf9bd00b11ece77" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/dgasmith/{{ name }}/archive/v{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
