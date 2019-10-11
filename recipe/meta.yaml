@@ -26,7 +26,7 @@ requirements:
 test:
   requires:
     - python
-    - pytest
+    - pytest < 5
   commands:
     - py.test --pyargs opt_einsum
 
