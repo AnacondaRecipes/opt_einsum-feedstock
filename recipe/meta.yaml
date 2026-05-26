@@ -35,7 +35,6 @@ test:
   requires:
     - pip
     - pytest
-    - pytest-pep8
 
 about:
   home: http://github.com/dgasmith/opt_einsum
